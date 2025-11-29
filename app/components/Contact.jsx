@@ -1,9 +1,7 @@
-import { section } from "framer-motion/client"
-
 const Contact = () => {
   return (
-    <section className="w-screen h-[80vh] mt-16 flex justify-center items-center">
-        <div className="bg-white/10 backdrop-blur-3xl border-white/10 border min-w-xl lg:min-w-4xl xl:min-w-6xl h-fit rounded-3xl flex flex-col items-center">
+    <section id="contact" className="w-screen h-[80vh] mt-16 flex justify-center items-center">
+        <div className="bg-white/10 backdrop-blur-3xl border-white/10 border min-w-sm sm:w-2xl lg:w-4xl xl:w-6xl h-fit rounded-3xl flex flex-col items-center">
             <div className="w-full my-4">
                 <h1 className="text-center font-medium text-2xl lg:text-3xl xl:text-4xl text-brand-text-light">Contact Me</h1>
             </div>

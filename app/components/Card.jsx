@@ -3,7 +3,7 @@ import { ArrowUpRight, Github, ExternalLink} from 'lucide-react'
 const Card = () => {
   return (
         /** TODO: Fix CTA buttons going under card and becoming blurry */
-        <div className='w-sm bg-brand-primary-main/5 backdrop-blur-sm border border-black/10 rounded-3xl overflow-hidden hover:border-black/20 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-black/20' >
+        <div className='w-sm bg-brand-primary-main/20 backdrop-blur-sm border border-black/10 rounded-3xl overflow-hidden hover:border-black/20 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-black/20' >
             <div className="p-6 sm:p-8">
                 {/* Categories & Quick Action Buttons */}
                 <div className="flex items-start justify-between mb-4">

@@ -7,11 +7,11 @@ Personal Portfolio Project:
             - Button background slides to nav link the user is hovering over
         ✔ Set up links to jump to corresponding section on the page @done(25-11-28 19:01)
         ✔ Make responsive for all screen sizes @done(25-11-28 19:01)
-    ☐ Hero Section
+    ✔ Hero Section @done(25-11-29 17:08)
         ✔ Main text @done(25-11-28 19:38)
         ✔ Main text special effects @done(25-11-28 19:54)
-        ☐ 3D art/animation or image to be main focus of landing page
-        ☐ CTA button/s @started(25-11-28 20:55)
+        ✔ 3D art/animation or image to be main focus of landing page @done(25-11-29 17:08)
+        ✔ CTA button/s @started(25-11-28 20:55) @done(25-11-29 17:08) @lasted(20h13m37s)
             ✔ Resume button @started(25-11-28 21:08) @done(25-11-28 21:25) @lasted(17m6s)
             ✔ Hire me button @started(25-11-28 21:08) @done(25-11-28 21:25) @lasted(17m8s)
             ☐ Make buttons lead to resume pdf and hire me button lead to scheduling with me
@@ -26,8 +26,8 @@ Personal Portfolio Project:
         ☐ Implement javascript functionality into project card component
         ☐ Differentiate the project cards by passing props to change the attributes
     ☐ Contact Section
-        ☐ Structure contact form container with all elements to send an email right on the website @started(25-11-29 15:54)
-        ☐ Style the contact form to fit theme
+        ✔ Structure contact form container with all elements to send an email right on the website @started(25-11-29 15:54) @done(25-11-29 16:53) @lasted(59m42s)
+        ✔ Style the contact form to fit theme @done(25-11-29 16:53)
         ☐ Write backend code to make contact form functionally set up to my email address
     ✔ Footer @started(25-11-29 15:21) @done(25-11-29 15:33) @lasted(12m50s)
         ✔ Add copyright tags @done(25-11-29 15:30)
