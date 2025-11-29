@@ -45,8 +45,7 @@ const Hero = () => {
         <div className="relative z-10 flex flex-col items-center">
           <span className="mb-2 inline-block rounded-full bg-brand-primary-main/50 px-4 py-1 text-sm border border-white/20">Computer Science Student</span>
           <h1 className="max-w-3xl bg-linear-to-br from-white to-gray-400 bg-clip-text text-center text-5xl font-medium leading-tight text-transparent md:text-7xl">I&apos;m <span className="bg-linear-to-bl from-brand-text-light to-brand-primary-light text-transparent bg-clip-text">Jalyn</span>, <br /> Full Stack Developer</h1>
-          <p className="my-6 max-w-xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, et,
-            distinctio eum impedit nihil ipsum modi.</p>
+          <p className="my-6 max-w-xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">Transforming ideas with modern development. Delivering well coded, high-speed full-stack web solutions that are aesthetically clean and fully responsive for optimal user experience. </p>
         </div>
 
         <div className="absolute inset-0 z-0">
