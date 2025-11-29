@@ -21,5 +21,6 @@
 
 body {
   background: var(--color-neutral-dark-background);
+  /* background: transparent; */
   font-family: var(--font-system-ui);
 }
