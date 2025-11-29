@@ -1,6 +1,7 @@
 import Navbar from '@/app/components/Navbar'
 import Hero from '@/app/components/Hero'
 import CTA from '@/app/components/CTA'
+import Projects from '@/app/components/Projects'
 
 const page = () => {
   return (
@@ -8,6 +9,7 @@ const page = () => {
       <Navbar />
       < Hero />
       < CTA />
+      < Projects />
     </main>
   )
 }

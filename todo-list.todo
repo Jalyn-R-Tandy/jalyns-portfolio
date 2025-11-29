@@ -1,5 +1,5 @@
 Personal Portfolio Project:
-    ☐ Navbar @started(25-11-28 18:15)
+    ✔ Navbar @started(25-11-28 18:15) @done(25-11-29 00:07) @lasted(5h52m1s)
         ✔ Make glass background for header @started(25-11-28 18:19) @done(25-11-28 19:00) @lasted(41m49s)
         ✔ Have ideal spacing between elements @done(25-11-28 19:00)
         ✔ Hover effects @done(25-11-28 19:01)
@@ -17,5 +17,11 @@ Personal Portfolio Project:
             ☐ Make buttons lead to resume pdf and hire me button lead to scheduling with me
         ☐ Background overlays and gradients
         ☐ Short description of who I am or what I do
-    ☐ Projects Section
+    ✔ Projects Section @done(25-11-29 00:06)
+        ✔ Set up layout and section @started(25-11-28 22:15) @done(25-11-28 23:38) @lasted(1h23m55s)
+        ✔ Make grid or flex layout for project cards @done(25-11-28 23:38)
+        ✔ Add section title text @started(25-11-28 22:15) @done(25-11-28 23:38) @lasted(1h23m46s)
+        ✔ Create project card component @started(25-11-28 22:15) @done(25-11-28 23:38) @lasted(1h23m51s)
+        ☐ Implement javascript functionality into project card component
     ☐ Contact Section
+    ☐ Footer
