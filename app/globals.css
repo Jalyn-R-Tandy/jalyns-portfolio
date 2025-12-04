@@ -49,7 +49,7 @@ body {
 
 @layer utilities {
     .title-tag {
-        @apply mb-2 rounded-full text-medium-gray bg-border-gray/10 px-4 py-1 text-sm font-light border border-white/10;
+        @apply mb-2 rounded-full text-medium-gray bg-border-gray/10 px-4 py-1 text-sm font-light italic border border-hot-red/50;
     }
     .title-effect {
         @apply bg-linear-to-bl from-red-400 to-red-600 text-transparent bg-clip-text;
