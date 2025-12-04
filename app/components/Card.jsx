@@ -1,7 +1,7 @@
 import { ArrowUpRight, Github, ExternalLink} from 'lucide-react'
 import Image from 'next/image'
 
-const Card = ({ category, project, desc, stack, img }) => {
+const Card = ({ category, project, desc, stack, img, site }) => {
   return (
         <div className='w-sm bg-deep-navy backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:border-white/20 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-black/20' >
             <div className="p-6 sm:p-8">
@@ -61,7 +61,9 @@ const Card = ({ category, project, desc, stack, img }) => {
             {/** View Project */}
             <div className="px-6 sm:px-8 pb-6 sm:pb-8 -mt-8 relative z-10">
                 <button className="w-full flex items-center justify-center gap-2 px-6 py-3.5 hover:bg-hot-red hover:text-white bg-card-bg border-2 border-hot-red/50 text-hot-red font-medium rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-white/20">
-                    <span>View Project</span>
+                    <a href={site} target="_blank">
+                        <span>View Project</span>
+                    </a>
                     <ArrowUpRight size={20} className="transition-transform group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
                 </button>
             </div>
