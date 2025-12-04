@@ -7,6 +7,9 @@ Personal Portfolio Project:
             - Button background slides to nav link the user is hovering over
         ✔ Set up links to jump to corresponding section on the page @done(25-11-28 19:01)
         ✔ Make responsive for all screen sizes @done(25-11-28 19:01)
+        ☐ Navbar on small devices, like my phone, have ugly sans-serif font
+        ☐ When you hold down nav buttons they pop up as a box and not rounded (on mobile)
+        ☐ Home nav button background stretches past the header bar
     ✔ Hero Section @done(25-11-29 17:08)
         ✔ Main text @done(25-11-28 19:38)
         ✔ Main text special effects @done(25-11-28 19:54)

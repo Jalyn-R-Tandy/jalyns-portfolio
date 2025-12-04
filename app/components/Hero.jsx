@@ -11,7 +11,7 @@ import {
 } from "framer-motion"
 import Navbar from "./Navbar"
 
-const COLORS_TOP = ['#06f', '#3385ff', '#0052cc', '#ff6b35']
+const COLORS_TOP = ['#e70202', '#971717', '#fb2121', '#bf3470']
 
 const Hero = () => {
   const color = useMotionValue(COLORS_TOP[0])
@@ -19,7 +19,7 @@ const Hero = () => {
   useEffect(() => {
     animate(color, COLORS_TOP, {
       ease: "easeInOut",
-      duration: 10,
+      duration: 3,
       repeat: Infinity,
       repeatType: "mirror",
     })
@@ -33,9 +33,13 @@ const Hero = () => {
       <motion.section
         style={{backgroundImage}} className="relative grid min-h-screen place-content-center overflow-hidden bg-gray-950 px-4 py-24 text-gray-200">
         <div className="relative z-10 flex flex-col items-center">
-          <span className="mb-2 inline-block rounded-full bg-brand-primary-main/50 px-4 py-1 text-sm border border-white/20">Computer Science Student</span>
-          <h1 className="max-w-3xl bg-linear-to-br from-white to-gray-400 bg-clip-text text-center text-5xl font-medium leading-tight text-transparent md:text-7xl">I&apos;m <span className="bg-linear-to-bl from-brand-text-light to-brand-primary-light text-transparent bg-clip-text">Jalyn</span>, <br /> Full Stack Developer</h1>
-          <p className="my-6 max-w-xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">Transforming ideas with modern development. Delivering well coded, high-speed full-stack web solutions that are aesthetically clean and fully responsive for optimal user experience. </p>
+          <span className="title-tag">Computer Science Student</span>
+          <h1 className="max-w-3xl text-center text-5xl font-medium leading-tight text-text md:text-7xl">I&apos;m
+              <span className="title-effect">&nbsp;Jalyn</span>
+              <br />
+              Full Stack Developer
+          </h1>
+          <p className="my-6 max-w-xl text-center text-base text-medium-gray leading-relaxed md:text-lg md:leading-relaxed">Transforming ideas with modern development. Delivering well coded, high-speed full-stack web solutions that are aesthetically clean and fully responsive for optimal user experience. </p>
         </div>
 
         <div className="absolute inset-0 z-0">
