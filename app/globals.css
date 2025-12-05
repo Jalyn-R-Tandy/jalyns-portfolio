@@ -33,6 +33,9 @@ body {
     --color-border-gray: #1F2937;
     --color-card-bg: #1F2937;
     --color-text: white;
+
+    --breakpoint-xxs: 320px;
+    --breakpoint-xs: 375px;
 }
 
 @layer base {
