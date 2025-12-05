@@ -48,6 +48,9 @@ body {
 }
 
 @layer utilities {
+    * {
+        overflow-x: hidden;
+    }
     .title-tag {
         @apply mb-2 rounded-full text-medium-gray bg-border-gray/10 px-4 py-1 text-sm font-light italic border border-hot-red/50;
     }

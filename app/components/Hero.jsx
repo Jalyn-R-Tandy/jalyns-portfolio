@@ -34,7 +34,7 @@ const Hero = () => {
         style={{backgroundImage}} className="relative grid min-h-screen place-content-center overflow-hidden bg-gray-950 px-4 py-24 text-gray-200">
         <div className="relative z-10 flex flex-col items-center">
           <span className="title-tag">Computer Science Student</span>
-          <h1 className="max-w-3xl text-center text-5xl font-medium leading-tight text-text md:text-7xl">I&apos;m
+          <h1 className="max-w-3xl text-center text-4xl font-medium leading-tight text-text md:text-7xl">I&apos;m
               <span className="title-effect">&nbsp;Jalyn</span>
               <br />
               Full Stack Developer
