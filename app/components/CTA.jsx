@@ -22,7 +22,9 @@ const CTA = () => {
             </div>
 
             {/** Hire Me Button */}
-            <div className="w-1/2 h-2/3 flex justify-center items-center text-brand-text-light font-semibold underline-offset-4 underline hover:text-hot-red transition-colors duration-300"><a href="#">Hire Me</a></div>
+            <div className="w-1/2 h-2/3 flex justify-center items-center text-brand-text-light font-semibold underline-offset-4 underline hover:text-hot-red transition-colors duration-300">
+                <a href="https://calendly.com/jalynrtandy/new-meeting" target="_blank">Hire Me</a>
+            </div>
         </div>
     </div>
   )
