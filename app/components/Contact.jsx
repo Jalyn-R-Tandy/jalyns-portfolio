@@ -64,8 +64,8 @@ const Contact = () => {
                 <textarea placeholder="Send me a message!" value={formData.message} onChange={(e) => setFormData({...formData, message: e.target.value})} required disabled={status === 'sending'} style={{verticalAlign: 'top', paddingTop: '12px', textAlign: 'left',}} className="w-full h-36 bg-white/20 border border-white/20 rounded-3xl pl-4 mb-4"/>
             </div>
 
-            <button type="submit" disabled={status == 'sending'} onClick={handleSubmit} className="bg-hot-red rounded-2xl w-2/3 max-w-96 h-12 mb-8 text-text font-semibold border-white/25 border">{status === 'sending' ? 'Sending...' : 'Send Message'}</button>
-            {status === 'sending' && (
+            <button type="submit" disabled={status == 'sending'} className="bg-hot-red rounded-2xl w-2/3 max-w-96 h-12 mb-8 text-text font-semibold border-white/25 border">{status === 'sending' ? 'Sending...' : 'Send Message'}</button>
+            {status === 'success' && (
                 <p className="text-lg pb-2 font-semibold text-green-600">Message sent successfully!</p>
             )}
             {status === 'error' && (
