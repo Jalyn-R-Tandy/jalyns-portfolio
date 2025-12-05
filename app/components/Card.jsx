@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const Card = ({ category, project, desc, techStack = [], img, site }) => {
   return (
-        <div className='min-w-sm bg-deep-navy backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:border-white/20 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/10' >
-            <div className="p-6 sm:p-8">
+        <div className='min-w-[270px] bg-deep-navy backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:border-white/20 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/10' >
+            <div className="p-6 sm:p-8 w-fit">
                 {/* Categories & Quick Action Buttons */}
                 <div className="flex items-start justify-between mb-4">
                     {/* Category Badge */}

@@ -44,22 +44,22 @@ const Contact = () => {
 
     return (
     <section id="contact" className="w-screen h-screen mt-16 flex justify-center items-center">
-        <form onSubmit={handleSubmit} className="bg-white/10 backdrop-blur-3xl border-white/10 border min-w-sm sm:w-2xl lg:w-4xl xl:w-6xl h-fit rounded-3xl flex flex-col items-center">
+        <form onSubmit={handleSubmit} className="bg-white/10 backdrop-blur-3xl border-white/10 border min-w-[270px] sm:w-2xl lg:w-4xl xl:w-6xl h-fit rounded-3xl flex flex-col items-center">
             <div className="w-full my-4">
                 <h1 className="text-center font-semibold text-2xl lg:text-4xl text-text overflow-hidden">Contact Me</h1>
             </div>
 
-            <div className="w-full px-8">
+            <div className="w-full px-4">
                 <p className="text-text mb-1">Full Name</p>
                 <input placeholder="Enter your name" type="text" value={formData.name} onChange={(e) => setFormData({...formData, name: e.target.value})} required disabled={status === 'sending'} className="w-full h-12 bg-white/20 border border-white/20 rounded-2xl pl-4 mb-4"/>
             </div>
 
-            <div className="w-full px-8">
+            <div className="w-full px-4">
                 <p className="text-text mb-1">Email Address</p>
                 <input placeholder="Enter your email" type="email" value={formData.email} onChange={(e) => setFormData({...formData, email: e.target.value})} required disabled={status === 'sending'} className="w-full h-12 bg-white/20 border border-white/20 rounded-2xl pl-4 mb-4"/>
             </div>
 
-            <div className="w-full px-8">
+            <div className="w-full px-4">
                 <p className="text-text mb-1">Your Message</p>
                 <textarea placeholder="Send me a message!" value={formData.message} onChange={(e) => setFormData({...formData, message: e.target.value})} required disabled={status === 'sending'} style={{verticalAlign: 'top', paddingTop: '12px', textAlign: 'left',}} className="w-full h-36 bg-white/20 border border-white/20 rounded-3xl pl-4 mb-4"/>
             </div>
