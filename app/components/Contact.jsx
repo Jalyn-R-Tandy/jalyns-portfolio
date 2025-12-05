@@ -43,10 +43,10 @@ const Contact = () => {
     }
 
     return (
-    <section id="contact" className="w-screen h-[80vh] mt-16 flex justify-center items-center">
+    <section id="contact" className="w-screen h-screen mt-16 flex justify-center items-center">
         <form onSubmit={handleSubmit} className="bg-white/10 backdrop-blur-3xl border-white/10 border min-w-sm sm:w-2xl lg:w-4xl xl:w-6xl h-fit rounded-3xl flex flex-col items-center">
             <div className="w-full my-4">
-                <h1 className="text-center font-semibold text-3xl lg:text-4xl text-text overflow-hidden">Contact Me</h1>
+                <h1 className="text-center font-semibold text-2xl lg:text-4xl text-text overflow-hidden">Contact Me</h1>
             </div>
 
             <div className="w-full px-8">

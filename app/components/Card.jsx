@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 const Card = ({ category, project, desc, techStack = [], img, site }) => {
   return (
-        <div className='w-sm bg-deep-navy backdrop-blur-sm border border-white/10 !rounded-3xl overflow-hidden hover:border-white/20 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/10' >
+        <div className='min-w-sm bg-deep-navy backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:border-white/20 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/10' >
             <div className="p-6 sm:p-8">
                 {/* Categories & Quick Action Buttons */}
                 <div className="flex items-start justify-between mb-4">
                     {/* Category Badge */}
-                    <span className="px-3 py-1.5 bg-border-gray backdrop-blur-md border border-white/20 rounded-full text-xs font-medium text-medium-gray">
+                    <span className="px-3 whitespace-nowrap self-start py-1.5 bg-border-gray backdrop-blur-md border border-white/20 rounded-full text-xs font-medium text-medium-gray">
                         {category}
                     </span>
                 {/* Quick Action Buttons */}
@@ -56,7 +56,7 @@ const Card = ({ category, project, desc, techStack = [], img, site }) => {
                 width={400}
                 height={400}
                 alt=""
-                className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
+                className="w-full h-full object-text object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent"></div>
